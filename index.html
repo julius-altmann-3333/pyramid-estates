@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pyramid Real Estate Constructions</title>
+  <link rel="stylesheet" type="text/css" href="https://julius-altmann-3333.github.io/pyramid-estates/style.css">
+  <script src="https://julius-altmann-3333.github.io/pyramid-estates/main.js"></script>
+</head>
+<body>
 
+<header>
+  <h1>Pyramid Real Estate Constructions</h1>
+  <nav>
+    <a href="#custom-interior">Custom Interior</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <h2>Building Your Dreams with Elegance & Precision</h2>
+    <p>Expert construction services with bespoke interior designs tailored for you.</p>
+  </section>
+
+  <section class="custom-interior" id="custom-interior">
+    <h3>Custom Interior Creation</h3>
+    <form id="interiorForm">
+      <label for="room">Select Room Type:</label>
+      <select id="room" name="room" required>
+        <option value="" disabled selected>Choose a room</option>
+        <option value="Living Room">Living Room</option>
+        <option value="Bedroom">Bedroom</option>
+        <option value="Kitchen">Kitchen</option>
+        <option value="Bathroom">Bathroom</option>
+        <option value="Home Office">Home Office</option>
+      </select>
+
+      <label for="style">Preferred Style:</label>
+      <select id="style" name="style" required>
+        <option value="" disabled selected>Choose a style</option>
+        <option value="Modern">Modern</option>
+        <option value="Classic">Classic</option>
+        <option value="Minimalist">Minimalist</option>
+        <option value="Industrial">Industrial</option>
+        <option value="Luxury">Luxury</option>
+      </select>
+
+      <label for="colorScheme">Color Scheme:</label>
+      <select id="colorScheme" name="colorScheme" required>
+        <option value="" disabled selected>Choose color scheme</option>
+        <option value="Black & Gold">Black & Gold</option>
+        <option value="White & Silver">White & Silver</option>
+        <option value="Earth Tones">Earth Tones</option>
+        <option value="Bold & Bright">Bold & Bright</option>
+      </select>
+
+      <label for="notes">Additional Notes:</label>
+      <textarea id="notes" name="notes" placeholder="Describe your ideas or requirements..."></textarea>
+
+      <button type="submit">Submit Request</button>
+    </form>
+  </section>
+</main>
+
+<footer id="contact">
+  <p>&copy; 2025 Pyramid Real Estate Constructions. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
