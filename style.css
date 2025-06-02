@@ -1,1 +1,144 @@
 
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  body {
+    background-color: #000;
+    color: #d4af37; /* Gold */
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  a {
+    color: #d4af37;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  a:hover {
+    color: #fff;
+  }
+
+  header {
+    background-color: #111;
+    padding: 1rem 2rem;
+    border-bottom: 2px solid #d4af37;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+  }
+  nav a {
+    margin-left: 1.5rem;
+    font-weight: 600;
+  }
+
+  main {
+    flex-grow: 1;
+  }
+
+  /* Hero Section */
+  .hero {
+    padding: 3rem 2rem;
+    text-align: center;
+    background: linear-gradient(135deg, #000000, #1a1a1a);
+  }
+  .hero h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    letter-spacing: 3px;
+  }
+  .hero p {
+    font-size: 1.25rem;
+    max-width: 700px;
+    margin: 0 auto;
+    color: #bfa94a;
+  }
+
+  /* Custom Interior Creation Section */
+  .custom-interior {
+    max-width: 700px;
+    margin: 3rem auto;
+    background-color: #111;
+    padding: 2rem;
+    border: 2px solid #d4af37;
+    border-radius: 8px;
+  }
+  .custom-interior h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  label {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  select, textarea, input[type="text"] {
+    background-color: #000;
+    border: 1.5px solid #d4af37;
+    color: #d4af37;
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  select:focus, textarea:focus, input[type="text"]:focus {
+    outline: none;
+    border-color: #fff;
+    background-color: #1a1a1a;
+  }
+  textarea {
+    min-height: 100px;
+  }
+  button {
+    background-color: #d4af37;
+    color: #000;
+    border: none;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: #b8962e;
+  }
+
+  /* Footer */
+  footer {
+    background-color: #111;
+    text-align: center;
+    padding: 1rem;
+    border-top: 2px solid #d4af37;
+    font-size: 0.9rem;
+    color: #bfa94a;
+  }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    nav {
+      margin-top: 0.5rem;
+    }
+    .hero h2 {
+      font-size: 2rem;
+    }
+  }
