@@ -144,6 +144,7 @@ footer {
 .slider-container {
   width: 80vw;
   max-width: 800px;
+  max-height: 100vh; /* Set max height to viewport height */
   aspect-ratio: 1/1;
   overflow: hidden;
   position: relative;
@@ -208,6 +209,7 @@ footer {
   .slider-container {
     width: 90vw;
     max-width: 600px;
+    max-height: 90vh; /* Slightly reduced for smaller screens */
   }
   .nav button {
     font-size: 1.5rem;
@@ -232,6 +234,7 @@ footer {
   .slider-container {
     width: 95vw;
     max-width: 400px;
+    max-height: 80vh; /* Further reduced for mobile */
   }
   .nav button {
     font-size: 1.2rem;
